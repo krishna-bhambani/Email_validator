@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700&family=Poppins&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    padding: 19px 12px;
+    position: relative;
+}
+ul{
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+    padding: 0 13px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+
+main{
+    background-color: blanchedalmond;
+    min-height: 83vh;
+}
+.container{
+    margin: auto;
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.btn{
+    border-radius: 3px;
+    height:30px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 400px) {
+    main{
+        background-color: lightblue;
+    }
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
